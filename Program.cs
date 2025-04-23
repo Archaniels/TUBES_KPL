@@ -51,13 +51,13 @@ Tugas besar konstruksi perangkat lunak dikerjakan berkelompok dengan aturan seba
 
 public class Product
 {
-    private int id;
+    private String id;
     private String nama;
     private int harga;
     private String kategori;
     private String dateAdded;
 
-    public Product(int id, String nama, int harga, String kategori, String dateAdded)
+    public Product(String id, String nama, int harga, String kategori, String dateAdded)
     {
         ValidasiProduct.ValidasiID(id);
         ValidasiProduct.ValidasiID(nama);
@@ -74,6 +74,13 @@ public class Product
 
 public class ProductDatabase
 {
+    private List<Product> products;
+    
+    public void ProductDatabase()
+    {
+        products = new List<Product>();
+    }
+
     public void AddProduct()
     {
 
@@ -97,24 +104,36 @@ public class ProductDatabase
 
 public class ValidasiProduct
 {
-    public void ValidasiID(int id)
+    public static void ValidasiID(String id)
     {
-
+        if (String.IsNullOrEmpty(id))
+        {
+            throw new ArgumentException("\n[ERROR] ID Produk tidak boleh kosong!");
+        }
     }
 
-    public void ValidasiNama(String nama)
+    public static void ValidasiNama(String nama)
     {
-
+        if (String.IsNullOrEmpty(nama))
+        {
+            throw new ArgumentException("\n[ERROR] Nama Produk tidak boleh kosong!");
+        }
     }
 
-    public void ValidasiHarga(int harga)
+    public static void ValidasiHarga(int harga)
     {
-
+        if (harga < 0)
+        {
+            throw new ArgumentException("\n[ERROR] Harga Produk tidak boleh kurang dari 0!");
+        }
     }
 
-    public void ValidasiKategori(String kategori)
+    public static void ValidasiKategori(String kategori)
     {
-
+        if (String.IsNullOrEmpty(kategori))
+        {
+            throw new ArgumentException("\n[ERROR] Kategori Produk tidak boleh kosong!");
+        }
     }
 }
 
