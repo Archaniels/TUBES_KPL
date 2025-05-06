@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TUBES_KPL.Authentication.Config
 {
-    class Role
+    class UserRoles
     {
         private static readonly HashSet<string> ValidRoles = new() { "Customer", "Admin" };
 

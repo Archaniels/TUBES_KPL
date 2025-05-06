@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\validator\\accountvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\validator\\accountvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\config\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\config\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\config\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\config\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\donasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:donasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,25 +58,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AccountValidator.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Validator\\AccountValidator.cs",
               "RelativeDocumentMoniker": "Authentication\\Validator\\AccountValidator.cs",
               "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Validator\\AccountValidator.cs",
               "RelativeToolTip": "Authentication\\Validator\\AccountValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T01:42:15.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Config\\Role.cs",
-              "RelativeDocumentMoniker": "Authentication\\Config\\Role.cs",
-              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Config\\Role.cs",
-              "RelativeToolTip": "Authentication\\Config\\Role.cs",
+              "DocumentIndex": 4,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Config\\UserRoles.cs",
+              "RelativeDocumentMoniker": "Authentication\\Config\\UserRoles.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Config\\UserRoles.cs",
+              "RelativeToolTip": "Authentication\\Config\\UserRoles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T01:37:01.366Z",
@@ -84,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UserData.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Model\\UserData.cs",
               "RelativeDocumentMoniker": "Authentication\\Model\\UserData.cs",
@@ -97,19 +97,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Register.cs",
-              "RelativeDocumentMoniker": "Authentication\\Register.cs",
-              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Register.cs",
-              "RelativeToolTip": "Authentication\\Register.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Requests\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "Authentication\\Requests\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Requests\\RegisterRequest.cs",
+              "RelativeToolTip": "Authentication\\Requests\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T01:34:34.494Z"
+              "WhenOpened": "2025-05-06T01:34:34.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Donasi.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Donasi.cs",
               "RelativeDocumentMoniker": "Donasi.cs",
@@ -145,15 +146,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Login.cs",
-              "RelativeDocumentMoniker": "Authentication\\Login.cs",
-              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Login.cs",
-              "RelativeToolTip": "Authentication\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Requests\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Authentication\\Requests\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Requests\\LoginRequest.cs",
+              "RelativeToolTip": "Authentication\\Requests\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:54:53.437Z"
+              "WhenOpened": "2025-04-29T11:54:53.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -169,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Main.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
