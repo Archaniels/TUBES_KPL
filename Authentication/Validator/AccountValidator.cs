@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using TUBES_KPL.Authentication.Config;
 
 namespace TUBES_KPL.Authentication.Validator
 {
@@ -13,18 +14,28 @@ namespace TUBES_KPL.Authentication.Validator
         {
             try
             {
-                if (string.IsNullOrWhiteSpace(password) || password.Length <= 8 || !Regex.IsMatch(password, @"[A-Z]") || !Regex.IsMatch(password, @"[a-z]") || !Regex.IsMatch(password, @"\d"))
+                var config = AuthenticationConfig.Instance;
+
+                // validasi email
+                if (string.IsNullOrWhiteSpace(email) || !IsValidEmail(email))
                 {
-                    throw new ArgumentException("Password harus minimal panjang 8 karakter dan memiliki paling sedikit satu huruf kapital, satu huruf kecil, and satu digit.");
+                    throw new ArgumentException("Email tidak valid.");
                 }
 
-                if (string.IsNullOrWhiteSpace(username) || username.Length < 3 || !Regex.IsMatch(username, @"^[a-zA-Z0-9]+$"))
+                // validasi username 
+                if (string.IsNullOrWhiteSpace(username) || username.Length < config.MinUsernameLength || !Regex.IsMatch(username, @"^[a-zA-Z0-9]+$"))
                 {
-                    throw new ArgumentException("Username tidak bisa kosong.");
+                    throw new ArgumentException($"Username tidak valid. Harus minimal {config.MinUsernameLength} karakter dan hanya boleh berisi huruf dan angka.");
                 }
 
-                if (string.IsNullOrWhiteSpace(password) || password.Length <= 8 || !Regex.IsMatch(password, @"[A-Z]") || !Regex.IsMatch(password, @"[a-z]") || !Regex.IsMatch(password, @"\d")) {
-                    throw new ArgumentException("Password harus minimal panjang 8 karakter dan memiliki paling sedikit satu huruf kapital, satu huruf kecil, and satu digit.");
+                // validasi password
+                if (string.IsNullOrWhiteSpace(password) ||
+                    password.Length < config.MinPasswordLength ||
+                    !Regex.IsMatch(password, @"[A-Z]") ||
+                    !Regex.IsMatch(password, @"[a-z]") ||
+                    !Regex.IsMatch(password, @"\d"))
+                {
+                    throw new ArgumentException($"Password harus minimal panjang {config.MinPasswordLength} karakter dan memiliki paling sedikit satu huruf kapital, satu huruf kecil, and satu digit.");
                 }
             }
             catch (ArgumentException ex)
@@ -33,6 +44,23 @@ namespace TUBES_KPL.Authentication.Validator
                 return false;
             }
             return true;
+        }
+
+        private static bool IsValidEmail(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+                return false;
+
+            try
+            {
+                return Regex.IsMatch(email,
+                    @"^[^@\s]+@[^@\s]+\.[^@\s]+$",
+                    RegexOptions.IgnoreCase);
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }
