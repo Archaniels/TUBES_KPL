@@ -23,3 +23,6 @@ Tugas besar konstruksi perangkat lunak dikerjakan berkelompok dengan aturan seba
   4. Penjelasan dan hasil performance testing (nilai per individu) 
   5. Implementasi design by contract (nilai per individu) 
 - Sesi presentasi dan tanya jawab akan dilakukan pada pertemuan ke-11. Pada sesi ini, tanya jawab tiap anggota kelompok akan diberikan pertanyaan yang relevan dengan bagian yang dikerjakan. Setiap anggota akan diminta menjelaskan bagian yang dikerjakan, termasuk source code yang telah dibuat. (20% total nilai, penilaian per individu)
+
+# Resource
+- Link Pemilihan Teknik Konstruksi dan Pembagian Tugas: https://docs.google.com/document/d/1lZBq_b8qpmxk8YD_DxitWpt0RpATBHBZ-xLSNuTyQU4/edit?usp=sharing
