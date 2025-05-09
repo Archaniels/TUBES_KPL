@@ -12,6 +12,6 @@ namespace TUBES_KPL.Authentication.Requests
         public string Username { get; init; }
         public string Password { get; init; }
         public string Email { get; init; }
-        public UserRoles Role { get; init; }
+        public string Role { get; init; } = "Customer"; // role standard
     }
 }
