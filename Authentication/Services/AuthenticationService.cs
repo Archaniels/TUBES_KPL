@@ -23,12 +23,36 @@ namespace TUBES_KPL.Authentication.Services
 
         public bool Register(RegisterRequest request)
         {
-            // BELUM SELESAI
+            // mengecek apakah username sudah ada
+            if (_users.ContainsKey(request.Username))
+            {
+                Console.WriteLine("Username already exists.");
+                return false;
+            }
+
+            // validasi role
+            if (!UserRoles.IsValid(request.Role))
+            {
+                Console.WriteLine("Invalid role specified.");
+                return false;
+            }
+
+            // BELUM SELESAI!!!
         }
 
         public UserData Login(LoginRequest request)
         {
-            // BELUM SELESAI
+            // verify username ada
+
+            // verify ypassword
+            if (user.Password != request.Password)
+            {
+                Console.WriteLine("Incorrect password.");
+                return null;
+            }
+
+            Console.WriteLine($"User {request.Username} logged in successfully.");
+            return user;
         }
     }
 }
