@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Xml.Linq;
-
-/*
+﻿/*
 
 ====================================================================================================
 Tugas besar konstruksi perangkat lunak dikerjakan berkelompok dengan aturan sebagai berikut: 
@@ -49,10 +44,30 @@ Tugas besar konstruksi perangkat lunak dikerjakan berkelompok dengan aturan seba
 
  */
 
-public class Main
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Diagnostics;
+using System.Xml.Linq;
+using TUBES_KPL.Authentication.Config;
+using TUBES_KPL.Authentication.Model;
+using TUBES_KPL.Authentication.Requests;
+using TUBES_KPL.Authentication.Services;
+using TUBES_KPL.Authentication.Validator;
+
+namespace TUBES_KPL
 {
-    public static void Main(String[] args)
+    class Program
     {
-        
+        public static void Main(string[] args)
+        {
+            // memuat konfigurasi dan inisialisasi service
+            var config = AuthenticationConfig.Instance;
+            var authService = new AuthenticationService(config);
+
+            
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TUBES_KPL.Authentication.Model
 {
-    class UserData
+    public class UserData
     {
         public string Email { get; set; }
         public string Username { get; set; }
