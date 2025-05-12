@@ -10,13 +10,12 @@ namespace TUBES_KPL.Authentication.Config
     public class AuthenticationConfig
     {
         // properties untuk runtime configuration
-        public bool AllowUserListing { get; set; } = false;
         public int MinPasswordLength { get; set; } = 8;
         public int MinUsernameLength { get; set; } = 3;
         public bool RequireEmailValidation { get; set; } = false;
 
         // lokasi default configuration 
-        private static readonly string ConfigFile = ".json";
+        private static readonly string ConfigFile = "authentication_config.json";
 
         private static AuthenticationConfig _instance;
 

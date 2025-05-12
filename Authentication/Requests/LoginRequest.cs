@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TUBES_KPL.Authentication.Requests
 {
-    class LoginRequest
+    public class LoginRequest
     {
         public string Username { get; init; }
         public string Password { get; init; }

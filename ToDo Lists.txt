@@ -1,3 +1,2 @@
 ﻿To Do:
-- Authentication masih belom selesai JANGAN ADA YANG SENTUH
-- Authentication Service masih banyak yg belom 💀🙏
+- Authentication harusnya udah selesai semua dan udah bisa🙏🙏🙏🙏🙏

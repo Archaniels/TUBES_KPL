@@ -7,7 +7,7 @@ using TUBES_KPL.Authentication.Config;
 
 namespace TUBES_KPL.Authentication.Requests
 {
-    class RegisterRequest
+    public class RegisterRequest
     {
         public string Username { get; init; }
         public string Password { get; init; }
