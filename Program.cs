@@ -61,13 +61,273 @@ namespace TUBES_KPL
 {
     class Program
     {
+        private static AuthenticationService authService;
+        private static UserData currentUser = null;
+
         public static void Main(string[] args)
         {
             // memuat konfigurasi dan inisialisasi service
             var config = AuthenticationConfig.Instance;
-            var authService = new AuthenticationService(config);
+            authService = new AuthenticationService(config);
 
-            
+            MainMenu();
+        }
+
+        private static void MainMenu()
+        {
+            bool status = true;
+
+            while (status)
+            {
+                Console.Clear();
+                TampilanHeader();
+
+                if (currentUser == null)
+                {
+                    GuestMenu();
+                }
+                else
+                {
+                    UserMenu();
+                }
+
+                Console.Write("\nPilihan Anda: ");
+                string choice = Console.ReadLine();
+
+                if (currentUser == null)
+                {
+                    status = PilihanGuest(choice);
+                }
+                else
+                {
+                    status = PilihanUser(choice);
+                }
+
+                if (status)
+                {
+                    Console.WriteLine("\nTekan Enter untuk melanjutkan...");
+                    Console.ReadLine();
+                }
+            }
+        }
+
+        private static void TampilanHeader()
+        {
+            Console.WriteLine("╔════════════════════════════════════════════╗");
+            Console.WriteLine("║                  Re:Tide                   ║");
+            Console.WriteLine("╚════════════════════════════════════════════╝");
+
+            if (currentUser != null)
+            {
+                Console.WriteLine($"\nSelamat datang, {currentUser.Username} [{currentUser.Role}]");
+            }
+            Console.WriteLine();
+        }
+
+        private static void GuestMenu()
+        {
+            Console.WriteLine("╔════════════════════════════════════════════╗");
+            Console.WriteLine("║              Menu Utama - Guest            ║");
+            Console.WriteLine("╚════════════════════════════════════════════╝");
+            Console.WriteLine("1. Login");
+            Console.WriteLine("2. Register");
+            Console.WriteLine("3. Tentang Aplikasi");
+            Console.WriteLine("0. Keluar");
+        }
+
+        private static void UserMenu()
+        {
+            Console.WriteLine("╔════════════════════════════════════════════╗");
+            Console.WriteLine("║              Menu Utama - Admin            ║");
+            Console.WriteLine("╚════════════════════════════════════════════╝");
+            Console.WriteLine("1. Profil Saya");
+
+            if (currentUser.Role == "Admin")
+            {
+                Console.WriteLine("2. Pengaturan Website");
+                Console.WriteLine("3. Manajemen User");
+            }
+            else
+            {
+                Console.WriteLine("2. Catalog Produk");
+                Console.WriteLine("3. Keranjang Belanja");
+            }
+
+            Console.WriteLine("4. Pembayaran");
+            Console.WriteLine("5. Donasi");
+            Console.WriteLine("9. Logout");
+            Console.WriteLine("0. Keluar");
+        }
+
+        private static bool PilihanGuest(string choice)
+        {
+            switch (choice)
+            {
+                case "1":
+                    LoginMenu();
+                    return true;
+
+                case "2":
+                    RegisterMenu();
+                    return true;
+
+                case "3":
+                    ShowAbout();
+                    return true;
+
+                case "0":
+                    Console.WriteLine("\nTerima kasih telah menggunakan aplikasi kami!");
+                    return false;
+
+                default:
+                    Console.WriteLine("\nPilihan tidak valid!");
+                    return true;
+            }
+        }
+
+        private static bool PilihanUser(string choice)
+        {
+            switch (choice)
+            {
+                case "1":
+                    ShowProfile();
+                    return true;
+                case "0":
+                    Console.WriteLine($"\nTerima kasih {currentUser.Username}!");
+                    return false;
+
+                default:
+                    Console.WriteLine("\nPilihan tidak valid!");
+                    return true;
+            }
+        }
+
+        private static void LoginMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("╔════════════════════════════════════════════╗");
+            Console.WriteLine("║                     Login                  ║");
+            Console.WriteLine("╚════════════════════════════════════════════╝");
+            Console.WriteLine("(Ketik 'cancel' untuk membatalkan)\n");
+
+            Console.Write("Username: ");
+            string username = Console.ReadLine();
+
+            if (username.ToLower() == "cancel")
+            {
+                Console.WriteLine("\nLogin dibatalkan.");
+                return;
+            }
+
+            Console.Write("Password: ");
+            string password = Console.ReadLine();
+
+            var loginRequest = new LoginRequest
+            {
+                Username = username,
+                Password = password
+            };
+
+            currentUser = authService.Login(loginRequest);
+
+            if (currentUser != null)
+            {
+                Console.WriteLine($"\n✓ Login berhasil! Selamat datang {currentUser.Username}");
+            }
+            else
+            {
+                Console.WriteLine("\n✗ Login gagal! Username atau password salah.");
+            }
+        }
+
+        private static void RegisterMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("╔════════════════════════════════════════════╗");
+            Console.WriteLine("║                   Register                 ║");
+            Console.WriteLine("╚════════════════════════════════════════════╝");
+            Console.WriteLine("(Ketik 'cancel' untuk membatalkan)\n");
+
+            Console.Write("Username: ");
+            string username = Console.ReadLine();
+
+            if (username.ToLower() == "cancel")
+            {
+                Console.WriteLine("\nRegistrasi dibatalkan.");
+                return;
+            }
+
+            Console.Write("Email: ");
+            string email = Console.ReadLine();
+
+            Console.Write("Password: ");
+            string password = Console.ReadLine();
+
+            Console.Write("Konfirmasi Password: ");
+            string confirmPassword = Console.ReadLine();
+
+            if (password != confirmPassword)
+            {
+                Console.WriteLine("\n Password tidak cocok!");
+                return;
+            }
+
+            Console.Write("Role (Customer/Admin) [default: Customer]: ");
+            string role = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(role))
+            {
+                role = "Customer";
+            }
+
+            var registerRequest = new RegisterRequest
+            {
+                Username = username,
+                Password = password,
+                Email = email,
+                Role = role
+            };
+
+            if (authService.Register(registerRequest))
+            {
+                Console.WriteLine("\n✓ Registrasi berhasil! Silakan login.");
+            }
+            else
+            {
+                Console.WriteLine("\n✗ Registrasi gagal!");
+            }
+        }
+
+        private static void ShowProfile()
+        {
+            Console.Clear();
+            Console.WriteLine("=== PROFIL SAYA ===");
+            Console.WriteLine($"Username : {currentUser.Username}");
+            Console.WriteLine($"Email    : {currentUser.Email}");
+            Console.WriteLine($"Role     : {currentUser.Role}");
+        }
+
+        private static void ShowAbout()
+        {
+            Console.Clear();
+            Console.WriteLine("=== TENTANG APLIKASI ===");
+            Console.WriteLine("Re:Tide");
+            Console.WriteLine();
+            Console.WriteLine("Fitur yang tersedia:");
+            Console.WriteLine("1. Authentication (Login/Register)");
+            Console.WriteLine("2. Pengaturan Website (Admin only)");
+            Console.WriteLine();
+            Console.WriteLine("Teknik Konstruksi yang diterapkan:");
+            Console.WriteLine("- Automata");
+            Console.WriteLine("- Runtime Configuration");
+            Console.WriteLine("- Code Reuse/Library");
+            Console.WriteLine("- Design by Contract");
+        }
+
+        private static void Logout()
+        {
+            currentUser = null;
+            Console.WriteLine("\n✓ Logout berhasil!");
         }
     }
 }
