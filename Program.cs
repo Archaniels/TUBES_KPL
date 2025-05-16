@@ -56,12 +56,15 @@ using TUBES_KPL.Authentication.Model;
 using TUBES_KPL.Authentication.Requests;
 using TUBES_KPL.Authentication.Services;
 using TUBES_KPL.Authentication.Validator;
+using TUBES_KPL.PengaturanWebsite.Services;
+using TUBES_KPL.PengaturanWebsite.Config;
 
 namespace TUBES_KPL
 {
     class Program
     {
         private static AuthenticationService authService;
+        private static PengaturanWebsiteService websiteService;
         private static UserData currentUser = null;
 
         public static void Main(string[] args)
@@ -113,9 +116,16 @@ namespace TUBES_KPL
 
         private static void TampilanHeader()
         {
+            var websiteConfig = PengaturanWebsiteConfig.Instance;
+
             Console.WriteLine("╔════════════════════════════════════════════╗");
-            Console.WriteLine("║                  Re:Tide                   ║");
+            Console.WriteLine($"║             {websiteConfig.WebsiteName.PadRight(26)}║");
             Console.WriteLine("╚════════════════════════════════════════════╝");
+
+            if (websiteConfig.MaintenanceMode)
+            {
+                Console.WriteLine("!!! SISTEM DALAM MODE MAINTENANCE !!!");
+            }
 
             if (currentUser != null)
             {
@@ -159,9 +169,9 @@ namespace TUBES_KPL
             Console.WriteLine("0. Keluar");
         }
 
-        private static bool PilihanGuest(string choice)
+        private static bool PilihanGuest(string pilihan)
         {
-            switch (choice)
+            switch (pilihan)
             {
                 case "1":
                     LoginMenu();
@@ -185,13 +195,49 @@ namespace TUBES_KPL
             }
         }
 
-        private static bool PilihanUser(string choice)
+        private static bool PilihanUser(string pilihan)
         {
-            switch (choice)
+            switch (pilihan)
             {
                 case "1":
                     ShowProfile();
                     return true;
+
+                case "2":
+                    if (currentUser.Role == "Admin")
+                    {
+                        // Jalankan pengaturan website untuk admin
+                        websiteService.RunPengaturanWebsite();
+                    }
+                    else
+                    {
+                        Console.WriteLine("Katalog produk belum tersedia.");
+                    }
+                    return true;
+
+                case "3":
+                    if (currentUser.Role == "Admin")
+                    {
+                        Console.WriteLine("Manajemen user belum tersedia.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Keranjang belanja belum tersedia.");
+                    }
+                    return true;
+
+                case "4":
+                    Console.WriteLine("Pembayaran belum tersedia.");
+                    return true;
+
+                case "5":
+                    Console.WriteLine("Donasi belum tersedia.");
+                    return true;
+
+                case "9":
+                    Logout();
+                    return true;
+
                 case "0":
                     Console.WriteLine($"\nTerima kasih {currentUser.Username}!");
                     return false;
@@ -222,6 +268,19 @@ namespace TUBES_KPL
             Console.Write("Password: ");
             string password = Console.ReadLine();
 
+            if (password.ToLower() == "cancel")
+            {
+                Console.WriteLine("\nLogin dibatalkan.");
+                return;
+            }
+
+            // Design by Contract - Precondition
+            if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
+            {
+                Console.WriteLine("\nUsername dan password tidak boleh kosong!");
+                return;
+            }
+
             var loginRequest = new LoginRequest
             {
                 Username = username,
@@ -232,11 +291,11 @@ namespace TUBES_KPL
 
             if (currentUser != null)
             {
-                Console.WriteLine($"\n✓ Login berhasil! Selamat datang {currentUser.Username}");
+                Console.WriteLine($"\nLogin berhasil! Selamat datang {currentUser.Username}");
             }
             else
             {
-                Console.WriteLine("\n✗ Login gagal! Username atau password salah.");
+                Console.WriteLine("\nLogin gagal! Username atau password salah.");
             }
         }
 
@@ -260,15 +319,34 @@ namespace TUBES_KPL
             Console.Write("Email: ");
             string email = Console.ReadLine();
 
+            if (email.ToLower() == "cancel")
+            {
+                Console.WriteLine("\nRegistrasi dibatalkan.");
+                return;
+            }
+
             Console.Write("Password: ");
             string password = Console.ReadLine();
+
+            if (password.ToLower() == "cancel")
+            {
+                Console.WriteLine("\nRegistrasi dibatalkan.");
+                return;
+            }
 
             Console.Write("Konfirmasi Password: ");
             string confirmPassword = Console.ReadLine();
 
+            if (confirmPassword.ToLower() == "cancel")
+            {
+                Console.WriteLine("\nRegistrasi dibatalkan.");
+                return;
+            }
+
+            // Design by Contract - Precondition
             if (password != confirmPassword)
             {
-                Console.WriteLine("\n Password tidak cocok!");
+                Console.WriteLine("\nPassword tidak cocok!");
                 return;
             }
 
@@ -290,18 +368,27 @@ namespace TUBES_KPL
 
             if (authService.Register(registerRequest))
             {
-                Console.WriteLine("\n✓ Registrasi berhasil! Silakan login.");
+                Console.WriteLine("\nRegistrasi berhasil! Silakan login.");
             }
             else
             {
-                Console.WriteLine("\n✗ Registrasi gagal!");
+                Console.WriteLine("\nRegistrasi gagal!");
             }
         }
 
         private static void ShowProfile()
         {
+            // Design by Contract - Precondition
+            if (currentUser == null)
+            {
+                Console.WriteLine("Anda harus login terlebih dahulu!");
+                return;
+            }
+
             Console.Clear();
-            Console.WriteLine("=== PROFIL SAYA ===");
+            Console.WriteLine("╔════════════════════════════════════════════╗");
+            Console.WriteLine("║                PROFIL SAYA                 ║");
+            Console.WriteLine("╚════════════════════════════════════════════╝");
             Console.WriteLine($"Username : {currentUser.Username}");
             Console.WriteLine($"Email    : {currentUser.Email}");
             Console.WriteLine($"Role     : {currentUser.Role}");
@@ -309,9 +396,14 @@ namespace TUBES_KPL
 
         private static void ShowAbout()
         {
+            var websiteConfig = PengaturanWebsiteConfig.Instance;
+
             Console.Clear();
-            Console.WriteLine("=== TENTANG APLIKASI ===");
-            Console.WriteLine("Re:Tide");
+            Console.WriteLine("╔════════════════════════════════════════════╗");
+            Console.WriteLine("║             TENTANG APLIKASI               ║");
+            Console.WriteLine("╚════════════════════════════════════════════╝");
+            Console.WriteLine($"{websiteConfig.WebsiteName}");
+            Console.WriteLine($"{websiteConfig.WebsiteDescription}");
             Console.WriteLine();
             Console.WriteLine("Fitur yang tersedia:");
             Console.WriteLine("1. Authentication (Login/Register)");
@@ -326,8 +418,16 @@ namespace TUBES_KPL
 
         private static void Logout()
         {
+            // Design by Contract - Precondition
+            if (currentUser == null)
+            {
+                Console.WriteLine("Anda belum login!");
+                return;
+            }
+
+            string username = currentUser.Username;
             currentUser = null;
-            Console.WriteLine("\n✓ Logout berhasil!");
+            Console.WriteLine($"\n✓ Logout berhasil! Sampai jumpa, {username}!");
         }
     }
 }

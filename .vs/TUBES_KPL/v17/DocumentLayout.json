@@ -3,12 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FE749035-9DAC-B393-2F4F-16AECD44D508}|Unit Testing\\ReTide.Test\\ReTide.Test.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\unit testing\\retide.test\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE749035-9DAC-B393-2F4F-16AECD44D508}|Unit Testing\\ReTide.Test\\ReTide.Test.csproj|solutionrelative:unit testing\\retide.test\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE749035-9DAC-B393-2F4F-16AECD44D508}|Unit Testing\\ReTide.Test\\ReTide.Test.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\unit testing\\retide.test\\retide.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE749035-9DAC-B393-2F4F-16AECD44D508}|Unit Testing\\ReTide.Test\\ReTide.Test.csproj|solutionrelative:unit testing\\retide.test\\retide.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\pengaturanwebsite\\services\\pengaturanwebsiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:pengaturanwebsite\\services\\pengaturanwebsiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\pengaturanwebsite\\model\\pengaturanwebsitemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:pengaturanwebsite\\model\\pengaturanwebsitemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\pengaturanwebsite\\config\\pengaturanwebsiteconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,16 +46,8 @@
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\api\\models\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\models\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\config\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,33 +121,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAH0IAAAAAAAAAAAMwIwIAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-05-16T12:48:41.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\ReTide.Test\\Test1.cs",
+              "RelativeDocumentMoniker": "Unit Testing\\ReTide.Test\\Test1.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\ReTide.Test\\Test1.cs",
+              "RelativeToolTip": "Unit Testing\\ReTide.Test\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T12:43:05.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReTide.Test",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\ReTide.Test\\ReTide.Test.csproj",
+              "RelativeDocumentMoniker": "Unit Testing\\ReTide.Test\\ReTide.Test.csproj",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\ReTide.Test\\ReTide.Test.csproj",
+              "RelativeToolTip": "Unit Testing\\ReTide.Test\\ReTide.Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-16T12:42:57.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PengaturanWebsiteModel.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\PengaturanWebsite\\Model\\PengaturanWebsiteModel.cs",
               "RelativeDocumentMoniker": "PengaturanWebsite\\Model\\PengaturanWebsiteModel.cs",
               "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\PengaturanWebsite\\Model\\PengaturanWebsiteModel.cs",
               "RelativeToolTip": "PengaturanWebsite\\Model\\PengaturanWebsiteModel.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAgAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAA0wEkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T05:39:29.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PengaturanWebsiteService.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\PengaturanWebsite\\Services\\PengaturanWebsiteService.cs",
               "RelativeDocumentMoniker": "PengaturanWebsite\\Services\\PengaturanWebsiteService.cs",
               "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\PengaturanWebsite\\Services\\PengaturanWebsiteService.cs",
               "RelativeToolTip": "PengaturanWebsite\\Services\\PengaturanWebsiteService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA8wAkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAwwJsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T10:11:08.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
+              "Title": "Donation.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Models\\Donation.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Donation.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Models\\Donation.cs",
+              "RelativeToolTip": "API\\Models\\Donation.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBQwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T08:55:58.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAJMBAAAAAAAAAAAuwEIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:20:38.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "PengaturanWebsiteConfig.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\PengaturanWebsite\\Config\\PengaturanWebsiteConfig.cs",
               "RelativeDocumentMoniker": "PengaturanWebsite\\Config\\PengaturanWebsiteConfig.cs",
@@ -149,19 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Donation.cs",
-              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Models\\Donation.cs",
-              "RelativeDocumentMoniker": "API\\Models\\Donation.cs",
-              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Models\\Donation.cs",
-              "RelativeToolTip": "API\\Models\\Donation.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:55:58.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "IGenericService.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Services\\IGenericService.cs",
               "RelativeDocumentMoniker": "API\\Services\\IGenericService.cs",
@@ -169,11 +233,12 @@
               "RelativeToolTip": "API\\Services\\IGenericService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:55:04.033Z"
+              "WhenOpened": "2025-05-13T08:55:04.033Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "GenericService.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Services\\GenericService.cs",
               "RelativeDocumentMoniker": "API\\Services\\GenericService.cs",
@@ -181,11 +246,12 @@
               "RelativeToolTip": "API\\Services\\GenericService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:54:56.07Z"
+              "WhenOpened": "2025-05-13T08:54:56.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "DonationController.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Controllers\\DonationController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\DonationController.cs",
@@ -193,35 +259,25 @@
               "RelativeToolTip": "API\\Controllers\\DonationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:51:50.22Z"
+              "WhenOpened": "2025-05-13T08:51:50.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAPEAAAAAAAAAAAAnwD8BAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:20:38.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "UserData.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Model\\UserData.cs",
               "RelativeDocumentMoniker": "Authentication\\Model\\UserData.cs",
               "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Model\\UserData.cs",
               "RelativeToolTip": "Authentication\\Model\\UserData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T01:36:18.436Z"
+              "WhenOpened": "2025-05-06T01:36:18.436Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "UserRoles.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Config\\UserRoles.cs",
               "RelativeDocumentMoniker": "Authentication\\Config\\UserRoles.cs",
@@ -229,11 +285,12 @@
               "RelativeToolTip": "Authentication\\Config\\UserRoles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T01:37:01.366Z"
+              "WhenOpened": "2025-05-06T01:37:01.366Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Requests\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "Authentication\\Requests\\RegisterRequest.cs",
@@ -241,11 +298,12 @@
               "RelativeToolTip": "Authentication\\Requests\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T01:34:34.494Z"
+              "WhenOpened": "2025-05-06T01:34:34.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Services\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "Authentication\\Services\\AuthenticationService.cs",
@@ -253,11 +311,12 @@
               "RelativeToolTip": "Authentication\\Services\\AuthenticationService.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAwwHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T12:08:01.68Z"
+              "WhenOpened": "2025-05-08T12:08:01.68Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "AccountValidator.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Validator\\AccountValidator.cs",
               "RelativeDocumentMoniker": "Authentication\\Validator\\AccountValidator.cs",
@@ -265,11 +324,12 @@
               "RelativeToolTip": "Authentication\\Validator\\AccountValidator.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAwwEEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T01:42:15.453Z"
+              "WhenOpened": "2025-05-06T01:42:15.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "TUBES_KPL.csproj",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\TUBES_KPL.csproj",
               "RelativeDocumentMoniker": "TUBES_KPL.csproj",
@@ -277,23 +337,25 @@
               "RelativeToolTip": "TUBES_KPL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-08T11:15:34.713Z"
+              "WhenOpened": "2025-05-08T11:15:34.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "AuthenticationConfig.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Config\\AuthenticationConfig.cs",
               "RelativeDocumentMoniker": "Authentication\\Config\\AuthenticationConfig.cs",
               "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Config\\AuthenticationConfig.cs",
               "RelativeToolTip": "Authentication\\Config\\AuthenticationConfig.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA5wCoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T12:10:21.022Z"
+              "WhenOpened": "2025-05-08T12:10:21.022Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Requests\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Authentication\\Requests\\LoginRequest.cs",
@@ -301,11 +363,12 @@
               "RelativeToolTip": "Authentication\\Requests\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:54:53.437Z"
+              "WhenOpened": "2025-04-29T11:54:53.437Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ToDo Lists.txt",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\ToDo Lists.txt",
               "RelativeDocumentMoniker": "ToDo Lists.txt",
@@ -313,11 +376,12 @@
               "RelativeToolTip": "ToDo Lists.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-05-08T12:23:46.904Z"
+              "WhenOpened": "2025-05-08T12:23:46.904Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Produk.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Produk.cs",
               "RelativeDocumentMoniker": "Produk.cs",
@@ -325,11 +389,12 @@
               "RelativeToolTip": "Produk.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAIwGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:55:27.349Z"
+              "WhenOpened": "2025-04-29T11:55:27.349Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Pembayaran.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Pembayaran.cs",
               "RelativeDocumentMoniker": "Pembayaran.cs",
@@ -337,11 +402,12 @@
               "RelativeToolTip": "Pembayaran.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:55:13.077Z"
+              "WhenOpened": "2025-04-29T11:55:13.077Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Donasi.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Donasi.cs",
               "RelativeDocumentMoniker": "Donasi.cs",
@@ -349,11 +415,12 @@
               "RelativeToolTip": "Donasi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:55:58.692Z"
+              "WhenOpened": "2025-04-29T11:55:58.692Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Register.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Register.cs",
               "RelativeDocumentMoniker": "Register.cs",
@@ -361,7 +428,8 @@
               "RelativeToolTip": "Register.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:54:35.709Z"
+              "WhenOpened": "2025-04-29T11:54:35.709Z",
+              "EditorCaption": ""
             }
           ]
         }
