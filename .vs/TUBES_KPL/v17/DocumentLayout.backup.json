@@ -1,81 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\",
+  "WorkspaceRootPath": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\api\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\pengaturanwebsite\\services\\pengaturanwebsiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:pengaturanwebsite\\services\\pengaturanwebsiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\api\\models\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\models\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\pengaturanwebsite\\model\\pengaturanwebsitemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:pengaturanwebsite\\model\\pengaturanwebsitemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\api\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\pengaturanwebsite\\config\\pengaturanwebsiteconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:pengaturanwebsite\\config\\pengaturanwebsiteconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\api\\services\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\api\\services\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\services\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\api\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\api\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\api\\authenticationapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\authenticationapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\api\\models\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\models\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\authentication\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\model\\userdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\authentication\\config\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\config\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\config\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\authentication\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\requests\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\authentication\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\authentication\\validator\\accountvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\validator\\accountvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\validator\\accountvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\tubes_kpl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\tubes_kpl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:tubes_kpl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\authentication\\config\\authenticationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\config\\authenticationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\config\\authenticationconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\authentication\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\authentication\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:authentication\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\todo lists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\todo lists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:todo lists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:pembayaran.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\donasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\donasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:donasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\tubes_kpl\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -86,12 +94,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
@@ -101,14 +105,57 @@
               "Name": "ST:2:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PengaturanWebsiteModel.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\PengaturanWebsite\\Model\\PengaturanWebsiteModel.cs",
+              "RelativeDocumentMoniker": "PengaturanWebsite\\Model\\PengaturanWebsiteModel.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\PengaturanWebsite\\Model\\PengaturanWebsiteModel.cs",
+              "RelativeToolTip": "PengaturanWebsite\\Model\\PengaturanWebsiteModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwF8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T05:39:29.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PengaturanWebsiteService.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\PengaturanWebsite\\Services\\PengaturanWebsiteService.cs",
+              "RelativeDocumentMoniker": "PengaturanWebsite\\Services\\PengaturanWebsiteService.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\PengaturanWebsite\\Services\\PengaturanWebsiteService.cs",
+              "RelativeToolTip": "PengaturanWebsite\\Services\\PengaturanWebsiteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:11:08.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PengaturanWebsiteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\PengaturanWebsite\\Config\\PengaturanWebsiteConfig.cs",
+              "RelativeDocumentMoniker": "PengaturanWebsite\\Config\\PengaturanWebsiteConfig.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\PengaturanWebsite\\Config\\PengaturanWebsiteConfig.cs",
+              "RelativeToolTip": "PengaturanWebsite\\Config\\PengaturanWebsiteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:08:47.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Donation.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\API\\Models\\Donation.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Models\\Donation.cs",
               "RelativeDocumentMoniker": "API\\Models\\Donation.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\API\\Models\\Donation.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Models\\Donation.cs",
               "RelativeToolTip": "API\\Models\\Donation.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T08:55:58.622Z"
             },
@@ -116,33 +163,35 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "IGenericService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\API\\Services\\IGenericService.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Services\\IGenericService.cs",
               "RelativeDocumentMoniker": "API\\Services\\IGenericService.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\API\\Services\\IGenericService.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Services\\IGenericService.cs",
               "RelativeToolTip": "API\\Services\\IGenericService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:55:04.033Z"
+              "WhenOpened": "2025-05-13T08:55:04.033Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "GenericService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\API\\Services\\GenericService.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Services\\GenericService.cs",
               "RelativeDocumentMoniker": "API\\Services\\GenericService.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\API\\Services\\GenericService.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Services\\GenericService.cs",
               "RelativeToolTip": "API\\Services\\GenericService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:54:56.07Z"
+              "WhenOpened": "2025-05-13T08:54:56.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "DonationController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\API\\Controllers\\DonationController.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Controllers\\DonationController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\DonationController.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\API\\Controllers\\DonationController.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Controllers\\DonationController.cs",
               "RelativeToolTip": "API\\Controllers\\DonationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -151,35 +200,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAqwDUAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:20:38.148Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthenticationAPI.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\API\\AuthenticationAPI.cs",
-              "RelativeDocumentMoniker": "API\\AuthenticationAPI.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\API\\AuthenticationAPI.cs",
-              "RelativeToolTip": "API\\AuthenticationAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T12:22:37.605Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAnwD8BAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T13:20:38.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UserData.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Model\\UserData.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Model\\UserData.cs",
               "RelativeDocumentMoniker": "Authentication\\Model\\UserData.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Model\\UserData.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Model\\UserData.cs",
               "RelativeToolTip": "Authentication\\Model\\UserData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -187,11 +225,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "UserRoles.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Config\\UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Config\\UserRoles.cs",
               "RelativeDocumentMoniker": "Authentication\\Config\\UserRoles.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Config\\UserRoles.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Config\\UserRoles.cs",
               "RelativeToolTip": "Authentication\\Config\\UserRoles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -199,11 +237,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Requests\\RegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Requests\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "Authentication\\Requests\\RegisterRequest.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Requests\\RegisterRequest.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Requests\\RegisterRequest.cs",
               "RelativeToolTip": "Authentication\\Requests\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -211,11 +249,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Services\\AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Services\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "Authentication\\Services\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Services\\AuthenticationService.cs",
               "RelativeToolTip": "Authentication\\Services\\AuthenticationService.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAwwHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -223,11 +261,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AccountValidator.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Validator\\AccountValidator.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Validator\\AccountValidator.cs",
               "RelativeDocumentMoniker": "Authentication\\Validator\\AccountValidator.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Validator\\AccountValidator.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Validator\\AccountValidator.cs",
               "RelativeToolTip": "Authentication\\Validator\\AccountValidator.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAwwEEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -235,11 +273,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "TUBES_KPL.csproj",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\TUBES_KPL.csproj",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\TUBES_KPL.csproj",
               "RelativeDocumentMoniker": "TUBES_KPL.csproj",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\TUBES_KPL.csproj",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\TUBES_KPL.csproj",
               "RelativeToolTip": "TUBES_KPL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -247,11 +285,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "AuthenticationConfig.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Config\\AuthenticationConfig.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Config\\AuthenticationConfig.cs",
               "RelativeDocumentMoniker": "Authentication\\Config\\AuthenticationConfig.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Config\\AuthenticationConfig.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Config\\AuthenticationConfig.cs",
               "RelativeToolTip": "Authentication\\Config\\AuthenticationConfig.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAA5wCoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -259,11 +297,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Requests\\LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Requests\\LoginRequest.cs",
               "RelativeDocumentMoniker": "Authentication\\Requests\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Authentication\\Requests\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Authentication\\Requests\\LoginRequest.cs",
               "RelativeToolTip": "Authentication\\Requests\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -271,11 +309,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ToDo Lists.txt",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\ToDo Lists.txt",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\ToDo Lists.txt",
               "RelativeDocumentMoniker": "ToDo Lists.txt",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\ToDo Lists.txt",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\ToDo Lists.txt",
               "RelativeToolTip": "ToDo Lists.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
@@ -283,11 +321,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Produk.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Produk.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Produk.cs",
               "RelativeDocumentMoniker": "Produk.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Produk.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Produk.cs",
               "RelativeToolTip": "Produk.cs",
               "ViewState": "AgIAAEoAAAAAAAAAAAAIwGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -295,11 +333,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Pembayaran.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Pembayaran.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Pembayaran.cs",
               "RelativeDocumentMoniker": "Pembayaran.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Pembayaran.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Pembayaran.cs",
               "RelativeToolTip": "Pembayaran.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -307,11 +345,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Donasi.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Donasi.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Donasi.cs",
               "RelativeDocumentMoniker": "Donasi.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Donasi.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Donasi.cs",
               "RelativeToolTip": "Donasi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -319,11 +357,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Register.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Register.cs",
               "RelativeDocumentMoniker": "Register.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\TUBES_KPL\\Register.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Register.cs",
               "RelativeToolTip": "Register.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
