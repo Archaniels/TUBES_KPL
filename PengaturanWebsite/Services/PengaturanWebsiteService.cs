@@ -21,9 +21,9 @@ namespace TUBES_KPL.PengaturanWebsite.Services
 
         public void RunPengaturanWebsite()
         {
-            bool isRunning = true;
+            bool status = true;
 
-            while (isRunning)
+            while (status)
             {
                 Console.Clear();
                 DisplayHeader();
@@ -31,7 +31,7 @@ namespace TUBES_KPL.PengaturanWebsite.Services
                 switch (_automata.CurrentState)
                 {
                     case PengaturanWebsiteState.MainMenu:
-                        isRunning = HandleMainMenu();
+                        status = HandleMainMenu();
                         break;
                     case PengaturanWebsiteState.GeneralSettings:
                         HandleGeneralSettings();
@@ -44,7 +44,7 @@ namespace TUBES_KPL.PengaturanWebsite.Services
                         _automata.MoveNext(PengaturanWebsiteEvent.Back);
                         break;
                     case PengaturanWebsiteState.Exit:
-                        isRunning = false;
+                        status = false;
                         break;
                 }
 
@@ -181,7 +181,6 @@ namespace TUBES_KPL.PengaturanWebsite.Services
             Console.WriteLine("Menyimpan pengaturan...");
             PengaturanWebsiteConfig.SaveConfiguration(_config);
             Console.WriteLine("Pengaturan berhasil disimpan!");
-            System.Threading.Thread.Sleep(1500); // Pause sebentar agar pesan dapat dibaca
         }
     }
 }

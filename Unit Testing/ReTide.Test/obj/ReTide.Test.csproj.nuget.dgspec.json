@@ -55,6 +55,10 @@
               "target": "Package",
               "version": "[3.6.4, )"
             },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[3.6.4, )"
+            },
             "MSTest.TestFramework": {
               "target": "Package",
               "version": "[3.6.4, )"
@@ -115,9 +119,6 @@
             "projectReferences": {
               "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\TUBES_KPL.csproj": {
                 "projectPath": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\TUBES_KPL.csproj"
-              },
-              "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\TUBES_KPL\\TUBES_KPL.csproj": {
-                "projectPath": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\TUBES_KPL\\TUBES_KPL.csproj"
               }
             }
           }

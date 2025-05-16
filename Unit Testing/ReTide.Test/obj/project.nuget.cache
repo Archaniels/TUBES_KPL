@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "5M/46nsfeG8=",
-  "success": false,
+  "dgSpecHash": "T6TbL8P2jgc=",
+  "success": true,
   "projectFilePath": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\ReTide.Test\\ReTide.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
@@ -170,15 +170,5 @@
     "C:\\Users\\sxpix\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\TUBES_KPL\\TUBES_KPL.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\TUBES_KPL\\TUBES_KPL.csproj",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

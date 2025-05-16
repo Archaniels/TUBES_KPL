@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReTide.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60c0b7981ba9e7e2ea9f01ad3123c49a1113b629")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca4b387c08a53b0f1a65790d2edf381b698fc8a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReTide.Test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReTide.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

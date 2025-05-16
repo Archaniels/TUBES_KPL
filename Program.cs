@@ -72,6 +72,7 @@ namespace TUBES_KPL
             // memuat konfigurasi dan inisialisasi service
             var config = AuthenticationConfig.Instance;
             authService = new AuthenticationService(config);
+            websiteService = new PengaturanWebsiteService();
 
             MainMenu();
         }
@@ -148,7 +149,7 @@ namespace TUBES_KPL
         private static void UserMenu()
         {
             Console.WriteLine("╔════════════════════════════════════════════╗");
-            Console.WriteLine("║              Menu Utama - Admin            ║");
+            Console.WriteLine($"║          Menu Utama - {currentUser.Role.PadRight(16)}║");
             Console.WriteLine("╚════════════════════════════════════════════╝");
             Console.WriteLine("1. Profil Saya");
 
