@@ -16,22 +16,28 @@ namespace TUBES_KPL.API.Controllers
     {
         private readonly IGenericService<Donation> _donationService;
 
-        public DonationController()
+        public DonationController(IGenericService<Donation> donationService)
         {
-            _donationService = new GenericService<Donation>();
-        }
-
-        [HttpPost]
-        public IActionResult MakeDonation([FromBody] Donation donation)
-        {
-            _donationService.Add(donation);
-            return Ok(new { message = "Donasi Berhasil", donation });
+            _donationService = donationService;
         }
 
         [HttpGet]
-        public IActionResult GetAllDonations()
+        public ActionResult<IEnumerable<Donation>> GetAll()
         {
-            return Ok(_donationService.GetAll());
+            return _donationService.GetAll();
+        }
+
+        [HttpPost]
+        public ActionResult Add([FromBody] Donation donation)
+        {
+            _donationService.Add(donation);
+            return Ok(new { message = "Donation added successfully" });
+        }
+
+        [HttpDelete("{index}")]
+        public ActionResult Remove(int index)
+        {
+            _donationService.Remove(index);
+            return Ok(new { message = "Donation removed" });
         }
     }
-}
