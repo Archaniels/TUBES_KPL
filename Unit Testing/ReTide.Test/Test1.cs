@@ -219,4 +219,120 @@ namespace ReTide.Test
             Assert.IsNull(user, "Login harus gagal karena user tidak ada.");
         }
     }
-}
+
+    [TestClass]
+    public class PengaturanWebsiteTests
+    {
+        private readonly string _testConfigFile = "test_website_config.json";
+
+        [TestInitialize]
+        public void TestInitialize()
+        {
+            if (File.Exists(_testConfigFile))
+            {
+                File.Delete(_testConfigFile);
+            }
+        }
+
+        [TestCleanup]
+        public void TestCleanup()
+        {
+            if (File.Exists(_testConfigFile))
+            {
+                File.Delete(_testConfigFile);
+            }
+        }
+
+        [TestMethod]
+        public void DefaultConfig_NilaiDefaultYangBenar()
+        {
+            var config = new PengaturanWebsiteConfig();
+
+            Assert.AreEqual("Re:Tide", config.WebsiteName);
+            Assert.AreEqual("Platform untuk pembelian dan donasi produk daur ulang", config.WebsiteDescription);
+            Assert.IsFalse(config.MaintenanceMode);
+        }
+
+        [TestMethod]
+        public void SaveAndLoadConfig_ValueTetap()
+        {
+            var originalConfig = new PengaturanWebsiteConfig
+            {
+                WebsiteName = "Test Website",
+                WebsiteDescription = "Test description",
+                MaintenanceMode = true
+            };
+
+            string json = JsonSerializer.Serialize(originalConfig, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(_testConfigFile, json);
+
+            string readJson = File.ReadAllText(_testConfigFile);
+            var loadedConfig = JsonSerializer.Deserialize<PengaturanWebsiteConfig>(readJson);
+
+            Assert.IsNotNull(loadedConfig);
+            Assert.AreEqual("Test Website", loadedConfig.WebsiteName);
+            Assert.AreEqual("Test description", loadedConfig.WebsiteDescription);
+            Assert.IsTrue(loadedConfig.MaintenanceMode);
+        }
+
+        [TestMethod]
+        public void UpdateConfiguration_MengubahValuesDenganBenar()
+        {
+            var config = new PengaturanWebsiteConfig();
+
+            config.WebsiteName = "Update nama";
+            config.WebsiteDescription = "Update deskripsi";
+            config.MaintenanceMode = true;
+
+            Assert.AreEqual("Update nama", config.WebsiteName);
+            Assert.AreEqual("Update deskripsi", config.WebsiteDescription);
+            Assert.IsTrue(config.MaintenanceMode);
+        }
+
+        [TestMethod]
+        public void PengaturanWebsiteAutomata_TransisiDenganBenar()
+        {
+            var automata = new PengaturanWebsiteAutomata();
+
+            Assert.AreEqual(PengaturanWebsiteState.MainMenu, automata.CurrentState);
+
+            Assert.IsTrue(automata.MoveNext(PengaturanWebsiteEvent.SelectGeneral));
+            Assert.AreEqual(PengaturanWebsiteState.GeneralSettings, automata.CurrentState);
+
+            Assert.IsTrue(automata.MoveNext(PengaturanWebsiteEvent.Save));
+            Assert.AreEqual(PengaturanWebsiteState.Saving, automata.CurrentState);
+
+            Assert.IsTrue(automata.MoveNext(PengaturanWebsiteEvent.Back));
+            Assert.AreEqual(PengaturanWebsiteState.MainMenu, automata.CurrentState);
+        }
+
+        [TestMethod]
+        public void PengaturanWebsiteAutomata_TransisiInvalid()
+        {
+            var automata = new PengaturanWebsiteAutomata();
+
+            Assert.IsTrue(automata.MoveNext(PengaturanWebsiteEvent.Quit));
+            Assert.AreEqual(PengaturanWebsiteState.Exit, automata.CurrentState);
+
+            bool result = automata.MoveNext(PengaturanWebsiteEvent.Back);
+
+            Assert.IsFalse(result, "Harusnya false karena transisi invalid.");
+            Assert.AreEqual(PengaturanWebsiteState.Exit, automata.CurrentState, "State harus tetap setelah transisi invalid.");
+        }
+
+        [TestMethod]
+        public void PengaturanWebsiteAutomata_ResetSecaraNormal()
+        {
+            var automata = new PengaturanWebsiteAutomata();
+
+            automata.MoveNext(PengaturanWebsiteEvent.SelectGeneral);
+            automata.MoveNext(PengaturanWebsiteEvent.Save);
+
+            Assert.AreEqual(PengaturanWebsiteState.Saving, automata.CurrentState);
+
+            automata.Reset();
+
+            Assert.AreEqual(PengaturanWebsiteState.MainMenu, automata.CurrentState);
+        }
+        }
+    }

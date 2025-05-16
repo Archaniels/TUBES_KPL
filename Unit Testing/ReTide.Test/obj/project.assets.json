@@ -3304,6 +3304,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "MSTest": "3.6.4",
+          "MSTest.TestAdapter": "3.6.4",
           "MSTest.TestFramework": "3.6.4",
           "Microsoft.AspNetCore.Mvc": "2.3.0"
         },
@@ -9176,7 +9177,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\TUBES_KPL\\TUBES_KPL.csproj",
       "MSTest >= 3.6.4",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
       "TUBES_KPL >= 1.0.0"
@@ -9217,9 +9217,6 @@
           "projectReferences": {
             "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\TUBES_KPL.csproj": {
               "projectPath": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\TUBES_KPL.csproj"
-            },
-            "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\TUBES_KPL\\TUBES_KPL.csproj": {
-              "projectPath": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\TUBES_KPL\\TUBES_KPL.csproj"
             }
           }
         }
@@ -9268,16 +9265,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\TUBES_KPL\\TUBES_KPL.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\TUBES_KPL\\TUBES_KPL.csproj",
-      "targetGraphs": [
-        "net8.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }
