@@ -32,7 +32,7 @@ namespace TUBES_KPL.API.Controllers
         public ActionResult Pembelian(int id, int quantity)
         {
             var product = _productService.GetById(id);
-            if (product == null) return NotFound("Product tidak ditemukkan");
+            if (product == null) return NotFound("Product tidak ditemukan");
 
             if (product.Stock < quantity)
                 return BadRequest("Stok tidak cukup");
