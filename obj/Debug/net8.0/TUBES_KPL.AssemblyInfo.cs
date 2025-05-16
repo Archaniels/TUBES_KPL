@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TUBES_KPL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9b2bec1e527b650379f892966b4a4d1a9c4ce4e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+229c8d8eabec011b59e8c185e3dbd75a9fdb2e82")]
 [assembly: System.Reflection.AssemblyProductAttribute("TUBES_KPL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TUBES_KPL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
