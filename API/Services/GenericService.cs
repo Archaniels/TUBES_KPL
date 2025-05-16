@@ -8,16 +8,25 @@ namespace TUBES_KPL.API.Services
 {
     public class GenericService<T> : IGenericService<T>
     {
-        private List<T> items = new List<T>();
+        private List<T> items;
 
-        public void Add(T item)
+        public GenericService(List<T> initialItems)
         {
-            items.Add(item);
+            items = initialItems;
         }
 
-        public List<T> GetAll()
+        public List<T> GetAll() => items;
+
+        public T? GetById(int id) =>
+            items.Find(item => (int)item.GetType().GetProperty("Id")?.GetValue(item) == id);
+
+        public void Update(int id, T item)
         {
-            return items;
+            var index = items.FindIndex(existing =>
+                (int)existing.GetType().GetProperty("Id")?.GetValue(existing) == id);
+
+            if (index != -1)
+                items[index] = item;
         }
+
     }
-}
