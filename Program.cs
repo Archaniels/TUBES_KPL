@@ -58,6 +58,9 @@ using TUBES_KPL.Authentication.Services;
 using TUBES_KPL.Authentication.Validator;
 using TUBES_KPL.PengaturanWebsite.Services;
 using TUBES_KPL.PengaturanWebsite.Config;
+using TUBES_KPL.API.Models;
+using TUBES_KPL.API.Services;
+using System.Text.Json;
 
 namespace TUBES_KPL
 {
@@ -66,6 +69,13 @@ namespace TUBES_KPL
         private static AuthenticationService authService;
         private static PengaturanWebsiteService websiteService;
         private static UserData currentUser = null;
+        private static IGenericService<Donation> donationService;
+        private static IGenericService<Product> productService;
+        private static GenericService<Pembelian> purchaseService;
+
+        private const string DonationFilePath = "donations.json";
+        private const string ProductFilePath = "product.json";
+        private static string PurchaseFilePath = "purchases.json";
 
         public static void Main(string[] args)
         {
@@ -73,6 +83,16 @@ namespace TUBES_KPL
             var config = AuthenticationConfig.Instance;
             authService = new AuthenticationService(config);
             websiteService = new PengaturanWebsiteService();
+            var donationList = File.Exists(DonationFilePath)
+    ?       JsonSerializer.Deserialize<List<Donation>>(File.ReadAllText(DonationFilePath)) ?? new List<Donation>()
+    :       new List<Donation>();
+
+            var productList = Product.LoadFromFile(ProductFilePath);
+            var purchaseList = Pembelian.LoadFromFile(PurchaseFilePath);
+
+            donationService = new GenericService<Donation>(donationList);
+            productService = new GenericService<Product>(productList);
+            purchaseService = new GenericService<Pembelian>(purchaseList);
 
             Menu();
         }
@@ -210,9 +230,10 @@ namespace TUBES_KPL
                         // Jalankan pengaturan website untuk admin
                         websiteService.RunPengaturanWebsite();
                     }
-                    else
+                    else if (currentUser.Role == "Customer")
                     {
-                        Console.WriteLine("Katalog produk belum tersedia.");
+                        ShowPembelian();
+                        //Console.WriteLine("Katalog produk belum tersedia.");
                     }
                     return true;
 
@@ -232,7 +253,8 @@ namespace TUBES_KPL
                     return true;
 
                 case "5":
-                    Console.WriteLine("Donasi belum tersedia.");
+                    //Console.WriteLine("Donasi belum tersedia.");
+                    ShowDonasi();
                     return true;
 
                 case "9":
@@ -374,6 +396,175 @@ namespace TUBES_KPL
             else
             {
                 Console.WriteLine("\nRegistrasi gagal!");
+            }
+        }
+
+        private static void ShowPembelian()
+        {
+            Console.Clear();
+            Console.WriteLine("╔════════════════════════════════════════════╗");
+            Console.WriteLine("║                 PEMBELIAN                  ║");
+            Console.WriteLine("╚════════════════════════════════════════════╝");
+
+            if (currentUser == null)
+            {
+                Console.WriteLine("Anda harus login terlebih dahulu untuk mengakses fitur pembelian.");
+                return;
+            }
+
+            if (currentUser.Role == "Customer")
+            {
+                var products = productService.GetAll();
+                if (products.Count == 0)
+                {
+                    Console.WriteLine("Belum ada produk tersedia.");
+                    return;
+                }
+
+                Console.WriteLine("Daftar Produk:");
+                foreach (var p in products)
+                {
+                    Console.WriteLine($"ID: {p.Id} | Nama: {p.ProductName} | Harga: {p.Price:C} | Stok: {p.Stock}");
+                }
+
+                Console.Write("\nMasukkan ID produk yang ingin dibeli: ");
+                if (!int.TryParse(Console.ReadLine(), out int productId))
+                {
+                    Console.WriteLine("Input ID produk tidak valid.");
+                    return;
+                }
+
+                var product = productService.GetById(productId);
+                if (product == null)
+                {
+                    Console.WriteLine("Produk tidak ditemukan.");
+                    return;
+                }
+
+                Console.Write("Masukkan jumlah pembelian: ");
+                if (!int.TryParse(Console.ReadLine(), out int quantity) || quantity <= 0)
+                {
+                    Console.WriteLine("Jumlah pembelian tidak valid.");
+                    return;
+                }
+
+                if (product.Stock < quantity)
+                {
+                    Console.WriteLine("Stok produk tidak cukup.");
+                    return;
+                }
+
+                // Update stok produk
+                product.Stock -= quantity;
+                productService.Update(product.Id, product);
+                Product.SaveToFile(ProductFilePath, productService.GetAll());
+
+                // Buat data pembelian
+                var purchases = purchaseService.GetAll();
+                int newId = purchases.Count > 0 ? purchases.Max(x => x.Id) + 1 : 1;
+
+                var purchase = new Pembelian
+                {
+                    Id = newId,
+                    CustomerName = currentUser.Username,
+                    ProductId = product.Id,
+                    ProductName = product.ProductName,
+                    Quantity = quantity,
+                    TotalPrice = product.Price * quantity,
+                    PurchaseDate = DateTime.Now
+                };
+
+                purchaseService.Add(purchase);
+                Pembelian.SaveToFile(PurchaseFilePath, purchaseService.GetAll());
+
+                Console.WriteLine($"\n✓ Pembelian berhasil! Anda membeli {quantity} x {product.ProductName} dengan total {purchase.TotalPrice:C}.");
+            }
+            else if (currentUser.Role == "Admin")
+            {
+                // Tampilkan history pembelian semua customer
+                var purchases = purchaseService.GetAll();
+
+                if (purchases.Count == 0)
+                {
+                    Console.WriteLine("Belum ada riwayat pembelian.");
+                    return;
+                }
+
+                Console.WriteLine("Riwayat Pembelian:\n");
+                foreach (var p in purchases)
+                {
+                    Console.WriteLine($"ID: {p.Id} | Pembeli: {p.CustomerName} | Produk: {p.ProductName} | Jumlah: {p.Quantity} | Total: {p.TotalPrice:C} | Tanggal: {p.PurchaseDate}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Role Anda tidak memiliki akses ke fitur pembelian.");
+            }
+        }
+
+        private static void ShowDonasi()
+        {
+            Console.Clear();
+            Console.WriteLine("╔════════════════════════════════════════════╗");
+            Console.WriteLine("║                  DONASI                    ║");
+            Console.WriteLine("╚════════════════════════════════════════════╝");
+
+            if (currentUser == null)
+            {
+                Console.WriteLine("Anda harus login terlebih dahulu untuk mengakses fitur donasi.");
+                return;
+            }
+
+            if (currentUser.Role == "Customer")
+            {
+                // Customer boleh menambah donasi
+                Console.Write("Nama Donatur: ");
+                var name = Console.ReadLine();
+
+                Console.Write("Jumlah Donasi: ");
+                if (!decimal.TryParse(Console.ReadLine(), out decimal amount))
+                {
+                    Console.WriteLine("Input jumlah tidak valid.");
+                    return;
+                }
+
+                var donation = new Donation
+                {
+                    Id = donationService.GetAll().Count + 1,
+                    DonorName = name,
+                    Amount = amount
+                };
+
+                donationService.Add(donation);
+
+                // Save to file
+                var updatedDonations = donationService.GetAll();
+                var json = JsonSerializer.Serialize(updatedDonations, new JsonSerializerOptions { WriteIndented = true });
+                File.WriteAllText(DonationFilePath, json);
+
+                Console.WriteLine(" Donasi berhasil! Terima kasih atas kontribusi Anda.");
+            }
+            else if (currentUser.Role == "Admin")
+            {
+                // Admin hanya melihat daftar donasi
+                var donations = donationService.GetAll();
+
+                if (donations.Count == 0)
+                {
+                    Console.WriteLine("Belum ada donasi yang masuk.");
+                }
+                else
+                {
+                    Console.WriteLine("Daftar Donasi:\n");
+                    foreach (var d in donations)
+                    {
+                        Console.WriteLine($"ID: {d.Id} | Donatur: {d.DonorName} | Jumlah: {d.Amount:C}");
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("Role Anda tidak memiliki akses ke fitur donasi.");
             }
         }
 

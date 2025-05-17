@@ -7,8 +7,32 @@
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\api\\models\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\models\\donation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\api\\models\\pembelian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\models\\pembelian.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\api\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\controllers\\donationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\api\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\api\\controllers\\pembeliancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\controllers\\pembeliancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\documents\\~~~ codes\\visual studio 2022\\tubes_kpl\\api\\services\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\services\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,7 +57,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,33 +73,111 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericService.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Services\\GenericService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\GenericService.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Services\\GenericService.cs",
+              "RelativeToolTip": "API\\Services\\GenericService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T05:12:00.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGenericService.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Services\\IGenericService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\IGenericService.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Services\\IGenericService.cs",
+              "RelativeToolTip": "API\\Services\\IGenericService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T05:11:12.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Models\\Product.cs",
+              "RelativeToolTip": "API\\Models\\Product.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T05:08:27.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Donation.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Models\\Donation.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Donation.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Models\\Donation.cs",
+              "RelativeToolTip": "API\\Models\\Donation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T05:07:38.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DonationController.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Controllers\\DonationController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\DonationController.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Controllers\\DonationController.cs",
+              "RelativeToolTip": "API\\Controllers\\DonationController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwCcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T05:04:07.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAwFQAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T03:59:00.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Pembelian.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Models\\Pembelian.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Pembelian.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Models\\Pembelian.cs",
+              "RelativeToolTip": "API\\Models\\Pembelian.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T05:39:08.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PembelianController.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Controllers\\PembelianController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\PembelianController.cs",
               "ToolTip": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\API\\Controllers\\PembelianController.cs",
               "RelativeToolTip": "API\\Controllers\\PembelianController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvycAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T03:58:51.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\ReTide.Test\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "Unit Testing\\ReTide.Test\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -86,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "ReTide.Test.AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\Unit Testing\\ReTide.Test\\obj\\Debug\\net8.0\\ReTide.Test.AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Unit Testing\\ReTide.Test\\obj\\Debug\\net8.0\\ReTide.Test.AssemblyInfo.cs",
@@ -97,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Documents\\~~~ CODES\\Visual Studio 2022\\TUBES_KPL\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -108,7 +210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -116,8 +218,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAH0IAAAAAAAAAAAMwIwIAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-05-16T12:48:41.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T12:48:41.689Z"
             }
           ]
         }

@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "DonorName": "raditya",
+    "Amount": 100000000
+  },
+  {
+    "Id": 2,
+    "DonorName": "bagaskara",
+    "Amount": 23423432
+  },
+  {
+    "Id": 3,
+    "DonorName": "nganu",
+    "Amount": 123
+  },
+  {
+    "Id": 4,
+    "DonorName": "d",
+    "Amount": 12
+  }
+]

@@ -17,17 +17,36 @@ namespace TUBES_KPL.API.Services
 
         public List<T> GetAll() => items;
 
-        public T? GetById(int id) =>
-            items.Find(item => (int)item.GetType().GetProperty("Id")?.GetValue(item) == id);
+        public T? GetById(int id)
+        {
+            var idProp = typeof(T).GetProperty("Id");
+            return items.FirstOrDefault(item => (int?)idProp?.GetValue(item) == id);
+        }
+
+        public void Add(T item)
+        {
+            items.Add(item);
+        }
 
         public void Update(int id, T item)
         {
-            var index = items.FindIndex(existing =>
-                (int)existing.GetType().GetProperty("Id")?.GetValue(existing) == id);
-
+            var idProp = typeof(T).GetProperty("Id");
+            var index = items.FindIndex(existing => (int?)idProp?.GetValue(existing) == id);
             if (index != -1)
+            {
                 items[index] = item;
+            }
         }
 
+        public bool Remove(int id)
+        {
+            var item = GetById(id);
+            if (item != null)
+            {
+                items.Remove(item);
+                return true;
+            }
+            return false;
+        }
     }
 }

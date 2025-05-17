@@ -16,5 +16,17 @@
     "Username": "adminuser",
     "Password": "AdminPass123!",
     "Role": "Admin"
+  },
+  "raditya": {
+    "Email": "raditya@gmail.com",
+    "Username": "raditya",
+    "Password": "Raditya93.",
+    "Role": "Customer"
+  },
+  "bagaskara": {
+    "Email": "bagaskara@gmail.com",
+    "Username": "bagaskara",
+    "Password": "Bagaskara93.",
+    "Role": "Admin"
   }
 }

@@ -10,6 +10,8 @@ namespace TUBES_KPL.API.Services
     {
         List<T> GetAll();
         T? GetById(int id);
+        void Add(T item);
         void Update(int id, T item);
+        bool Remove(int id);
     }
 }
