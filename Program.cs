@@ -74,10 +74,10 @@ namespace TUBES_KPL
             authService = new AuthenticationService(config);
             websiteService = new PengaturanWebsiteService();
 
-            MainMenu();
+            Menu();
         }
 
-        private static void MainMenu()
+        private static void Menu()
         {
             bool status = true;
 

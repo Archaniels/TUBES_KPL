@@ -27,17 +27,23 @@ namespace TUBES_KPL.API.Controllers
             return _donationService.GetAll();
         }
 
-        [HttpPost]
-        public ActionResult Add([FromBody] Donation donation)
-        {
-            _donationService.Add(donation);
-            return Ok(new { message = "Donation added successfully" });
-        }
+        //[HttpPost]
+        //public ActionResult Add([FromBody] Donation donation)
+        //{
+        //    _donationService.Add(donation);
+        //    return Ok(new { message = "Donation added successfully" });
+        //}
 
-        [HttpDelete("{index}")]
-        public ActionResult Remove(int index)
-        {
-            _donationService.Remove(index);
-            return Ok(new { message = "Donation removed" });
-        }
+        //[HttpDelete("{index}")]
+        //public IActionResult Remove(int index)
+        //{
+        //    var removed = _donationService.Remove(index);
+        //    if (!removed)
+        //    {
+        //        return NotFound( new { message = $"Donation {index} not found" });
+        //    }
+        //}
+
+        //}
     }
+}

@@ -5,6 +5,8 @@
     <LangVersion>latest</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\TUBES_KPL.csproj" />
-    <ProjectReference Include="..\TUBES_KPL\TUBES_KPL.csproj" />
   </ItemGroup>
 
   <ItemGroup>

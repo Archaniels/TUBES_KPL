@@ -1,0 +1,5 @@
+C:\Users\sxpix\Documents\~~~ CODES\Visual Studio 2022\TUBES_KPL\Unit Testing\ReTide.Test\bin\Debug\net8.0-windows\.msCoverageSourceRootsMapping_ReTide.Test
+C:\Users\sxpix\Documents\~~~ CODES\Visual Studio 2022\TUBES_KPL\Unit Testing\ReTide.Test\obj\Debug\net8.0-windows\ReTide.Test.csproj.AssemblyReference.cache
+C:\Users\sxpix\Documents\~~~ CODES\Visual Studio 2022\TUBES_KPL\Unit Testing\ReTide.Test\obj\Debug\net8.0-windows\ReTide.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sxpix\Documents\~~~ CODES\Visual Studio 2022\TUBES_KPL\Unit Testing\ReTide.Test\obj\Debug\net8.0-windows\ReTide.Test.csproj.CoreCompileInputs.cache
+C:\Users\sxpix\Documents\~~~ CODES\Visual Studio 2022\TUBES_KPL\Unit Testing\ReTide.Test\obj\Debug\net8.0-windows\ReTide.Test.sourcelink.json
