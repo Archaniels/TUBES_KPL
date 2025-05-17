@@ -1,5 +1,0 @@
-{
-  "MinPasswordLength": 8,
-  "MinUsernameLength": 3,
-  "RequireEmailValidation": false
-}

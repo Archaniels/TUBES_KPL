@@ -1,4 +1,0 @@
-C:\Users\sxpix\Documents\~~~ CODES\Visual Studio 2022\TUBES_KPL\obj\Debug\net8.0\TUBES_KPL.csproj.AssemblyReference.cache
-C:\Users\sxpix\Documents\~~~ CODES\Visual Studio 2022\TUBES_KPL\obj\Debug\net8.0\TUBES_KPL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\sxpix\Documents\~~~ CODES\Visual Studio 2022\TUBES_KPL\obj\Debug\net8.0\TUBES_KPL.csproj.CoreCompileInputs.cache
-C:\Users\sxpix\Documents\~~~ CODES\Visual Studio 2022\TUBES_KPL\obj\Debug\net8.0\TUBES_KPL.sourcelink.json
