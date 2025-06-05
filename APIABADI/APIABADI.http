@@ -1,0 +1,6 @@
+@APIABADI_HostAddress = http://localhost:5026
+
+GET {{APIABADI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

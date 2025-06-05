@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "TUBES_KPL.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\APIABADI\\APIABADI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "TestUser1": {
+    "Email": "testuser1@example.com",
+    "Username": "TestUser1",
+    "Password": "Password123",
+    "Role": "Customer"
+  },
+  "raditya": {
+    "Email": "raditya@gmail.com",
+    "Username": "raditya",
+    "Password": "Raditya93.",
+    "Role": "Customer"
+  },
+  "bagaskara": {
+    "Email": "bagaskara@gmail.com",
+    "Username": "bagaskara",
+    "Password": "Bagaskara93.",
+    "Role": "Admin"
+  },
+  "dani": {
+    "Email": "dani@gmail.com",
+    "Username": "dani",
+    "Password": "@Daniyal2307",
+    "Role": "Customer"
+  },
+  "adminuser": {
+    "Email": "adminuser@gmail.com",
+    "Username": "adminuser",
+    "Password": "Adminuser123!",
+    "Role": "Admin"
+  },
+  "admiralmanan": {
+    "Email": "Manan2911@gmail.com",
+    "Username": "admiralmanan",
+    "Password": "Manan2911",
+    "Role": "Customer"
+  }
+}
