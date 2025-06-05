@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTesting", "..\UnitTesti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIABADI", "..\APIABADI\APIABADI.csproj", "{C941D92C-B6CC-4BFC-A8D8-1D9A334673DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI_ReTide", "..\GUI_ReTide\GUI_ReTide.csproj", "{F2985F64-885A-496F-B9BA-7944670D1FA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C941D92C-B6CC-4BFC-A8D8-1D9A334673DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C941D92C-B6CC-4BFC-A8D8-1D9A334673DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C941D92C-B6CC-4BFC-A8D8-1D9A334673DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2985F64-885A-496F-B9BA-7944670D1FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2985F64-885A-496F-B9BA-7944670D1FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2985F64-885A-496F-B9BA-7944670D1FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2985F64-885A-496F-B9BA-7944670D1FA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WUqi6DyKZr4=",
+  "dgSpecHash": "AdRJ9z9rxNw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\TUBES_KPL\\TUBES_KPL.csproj",
+  "projectFilePath": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\GUI_ReTide\\GUI_ReTide.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sxpix\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
@@ -53,6 +53,7 @@
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.codecoverage\\17.13.0\\microsoft.codecoverage.17.13.0.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.1.0\\microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
@@ -75,6 +76,7 @@
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.net.test.sdk\\17.13.0\\microsoft.net.test.sdk.17.13.0.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.testing.extensions.telemetry\\1.6.3\\microsoft.testing.extensions.telemetry.1.6.3.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.testing.extensions.trxreport.abstractions\\1.6.3\\microsoft.testing.extensions.trxreport.abstractions.1.6.3.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\microsoft.testing.extensions.vstestbridge\\1.6.3\\microsoft.testing.extensions.vstestbridge.1.6.3.nupkg.sha512",
@@ -106,6 +108,10 @@
     "C:\\Users\\sxpix\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\sxpix\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "C:\\Users\\sxpix\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "C:\\Users\\sxpix\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "C:\\Users\\sxpix\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\system.buffers\\4.6.0\\system.buffers.4.6.0.nupkg.sha512",
     "C:\\Users\\sxpix\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
@@ -181,7 +187,7 @@
       "message": "Detected package version outside of dependency constraint: MSTest 3.6.4 requires MSTest.TestAdapter (= 3.6.4) but version MSTest.TestAdapter 3.8.3 was resolved.",
       "libraryId": "MSTest.TestAdapter",
       "targetGraphs": [
-        "net8.0"
+        "net8.0-windows7.0"
       ]
     }
   ]
