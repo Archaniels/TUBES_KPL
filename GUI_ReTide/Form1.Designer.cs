@@ -108,6 +108,7 @@
             button1.TabIndex = 6;
             button1.Text = "Login";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
@@ -123,7 +124,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             ForeColor = SystemColors.Window;
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);

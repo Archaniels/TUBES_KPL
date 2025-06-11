@@ -3,22 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\TUBES_KPL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\artikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\donasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\donasi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\produk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\artikel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\gui_retide.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\gui_retide\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\dell\\source\\repos\\new_tubes_kpl\\tubes_kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -32,48 +44,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Form1.cs",
-              "RelativeDocumentMoniker": "..\\GUI_ReTide\\Form1.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Form1.cs",
-              "RelativeToolTip": "..\\GUI_ReTide\\Form1.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAewBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T09:00:16.071Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GUI_ReTide.csproj",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\GUI_ReTide.csproj",
-              "RelativeDocumentMoniker": "..\\GUI_ReTide\\GUI_ReTide.csproj",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\GUI_ReTide.csproj",
-              "RelativeToolTip": "..\\GUI_ReTide\\GUI_ReTide.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-10T08:48:20.585Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\MainMenu.cs",
-              "RelativeDocumentMoniker": "..\\GUI_ReTide\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\MainMenu.cs [Design]",
-              "RelativeToolTip": "..\\GUI_ReTide\\MainMenu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T05:52:38.93Z",
-              "EditorCaption": " [Design]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -88,44 +60,133 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Form1.cs",
               "RelativeDocumentMoniker": "..\\GUI_ReTide\\Form1.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Form1.cs [Design]",
-              "RelativeToolTip": "..\\GUI_ReTide\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Form1.cs",
+              "RelativeToolTip": "..\\GUI_ReTide\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wCEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T08:37:51.427Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-10T09:00:16.071Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Donasi.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Donasi.cs",
+              "RelativeDocumentMoniker": "..\\GUI_ReTide\\Donasi.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Donasi.cs",
+              "RelativeToolTip": "..\\GUI_ReTide\\Donasi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:43:16.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Donasi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Donasi.cs",
+              "RelativeDocumentMoniker": "..\\GUI_ReTide\\Donasi.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Donasi.cs [Design]",
+              "RelativeToolTip": "..\\GUI_ReTide\\Donasi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:41:42.262Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Produk.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Produk.cs",
+              "RelativeDocumentMoniker": "..\\GUI_ReTide\\Produk.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Produk.cs",
+              "RelativeToolTip": "..\\GUI_ReTide\\Produk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:39:55.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Produk.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Produk.cs",
+              "RelativeDocumentMoniker": "..\\GUI_ReTide\\Produk.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Produk.cs [Design]",
+              "RelativeToolTip": "..\\GUI_ReTide\\Produk.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:38:36.121Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Artikel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Artikel.cs",
+              "RelativeDocumentMoniker": "..\\GUI_ReTide\\Artikel.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Artikel.cs",
+              "RelativeToolTip": "..\\GUI_ReTide\\Artikel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:30:55.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\MainMenu.cs",
               "RelativeDocumentMoniker": "..\\GUI_ReTide\\MainMenu.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\MainMenu.cs",
               "RelativeToolTip": "..\\GUI_ReTide\\MainMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAIA6wC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-11T05:53:30.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Program.cs",
-              "RelativeDocumentMoniker": "..\\GUI_ReTide\\Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Program.cs",
-              "RelativeToolTip": "..\\GUI_ReTide\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\GUI_ReTide\\Form1.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\GUI_ReTide\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-10T08:37:56.946Z"
+              "WhenOpened": "2025-06-11T06:23:17.115Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Artikel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Artikel.cs",
+              "RelativeDocumentMoniker": "..\\GUI_ReTide\\Artikel.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\Artikel.cs [Design]",
+              "RelativeToolTip": "..\\GUI_ReTide\\Artikel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:13:08.316Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "MainMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\MainMenu.cs",
+              "RelativeDocumentMoniker": "..\\GUI_ReTide\\MainMenu.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\GUI_ReTide\\MainMenu.cs [Design]",
+              "RelativeToolTip": "..\\GUI_ReTide\\MainMenu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:15:02.046Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\TUBES_KPL\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

@@ -26,5 +26,12 @@ namespace GUI_ReTide
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainMenu mainmenu = new MainMenu();
+            mainmenu.ShowDialog();
+        }
     }
 }
