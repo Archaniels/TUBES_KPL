@@ -1,0 +1,26 @@
+{
+  "daniyal23": {
+    "Email": "daniyal23@gmail.com",
+    "Username": "daniyal23",
+    "Password": "!Danidanidani23",
+    "Role": "Customer"
+  },
+  "daniyal111": {
+    "Email": "daniyal111@gmail.com",
+    "Username": "daniyal111",
+    "Password": "!Daniyal111",
+    "Role": "Customer"
+  },
+  "wadaw123": {
+    "Email": "wadaw123@gmail.com",
+    "Username": "wadaw123",
+    "Password": "!Wadawwadaw123",
+    "Role": "Customer"
+  },
+  "admin": {
+    "Email": "admin123@gmail.com",
+    "Username": "admin",
+    "Password": "!Adminadmin123",
+    "Role": "Admin"
+  }
+}

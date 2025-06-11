@@ -252,6 +252,10 @@ namespace TUBES_KPL
                     ShowDonasi();
                     return true;
 
+                case "6":
+                    TampilkanMenuArtikel();
+                    return true;
+
                 case "9":
                     Logout();
                     return true;
@@ -265,6 +269,65 @@ namespace TUBES_KPL
                     return true;
             }
         }
+
+    static void TampilkanMenuArtikel()
+        {
+        List<Artikel> artikels = new List<Artikel>
+        {
+            new Artikel { Id = 1, Judul = "Pengelolaan Sampah", Isi = "Cara mengelola sampah plastik.", TanggalPublikasi = DateTime.Now },
+            new Artikel { Id = 2, Judul = "Konservasi Air", Isi = "Tips hemat air untuk rumah tangga.", TanggalPublikasi = DateTime.Now }
+        };
+            while (true)
+            {
+                Console.WriteLine("\n=== Menu Artikel ===");
+                Console.WriteLine("1. Lihat semua artikel");
+                Console.WriteLine("2. Cari artikel berdasarkan ID");
+                Console.WriteLine("0. Kembali");
+                Console.Write("Pilih opsi: ");
+                string pilih = Console.ReadLine();
+
+                switch (pilih)
+                {
+                    case "1":
+                        Console.WriteLine("\n--- Daftar Artikel ---");
+                        foreach (var artikel in artikels)
+                        {
+                            Console.WriteLine($"[{artikel.Id}] {artikel.Judul} (Dipublikasikan: {artikel.TanggalPublikasi:dd-MM-yyyy})");
+                        }
+                        break;
+
+                    case "2":
+                        Console.Write("Masukkan ID artikel: ");
+                        if (int.TryParse(Console.ReadLine(), out int id))
+                        {
+                            var artikel = artikels.FirstOrDefault(a => a.Id == id);
+                            if (artikel != null)
+                            {
+                                Console.WriteLine($"\nJudul: {artikel.Judul}");
+                                Console.WriteLine($"Tanggal: {artikel.TanggalPublikasi:dd-MM-yyyy}");
+                                Console.WriteLine($"Isi: {artikel.Isi}");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Artikel tidak ditemukan.");
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("Input tidak valid.");
+                        }
+                        break;
+
+                    case "0":
+                        return;
+
+                    default:
+                        Console.WriteLine("Pilihan tidak valid.");
+                        break;
+                }
+            }
+        }
+
 
         private static void LoginMenu()
         {

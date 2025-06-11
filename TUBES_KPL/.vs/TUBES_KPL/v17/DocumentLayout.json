@@ -3,10 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\TUBES_KPL\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\sxpix\\downloads\\tubes_kpl_new\\tubes_kpl_new\\here\\gui_retide\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\sxpix\\downloads\\tubes_kpl_new\\tubes_kpl_new\\here\\gui_retide\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\downloads\\tubes_kpl_new\\tubes_kpl_new\\here\\tubes_kpl\\api\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\services\\genericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\downloads\\tubes_kpl_new\\tubes_kpl_new\\here\\tubes_kpl\\api\\services\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|solutionrelative:api\\services\\igenericservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\sxpix\\downloads\\tubes_kpl_new\\tubes_kpl_new\\here\\gui_retide\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\sxpix\\downloads\\tubes_kpl_new\\tubes_kpl_new\\here\\gui_retide\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2985F64-885A-496F-B9BA-7944670D1FA9}|..\\GUI_ReTide\\GUI_ReTide.csproj|c:\\users\\sxpix\\downloads\\tubes_kpl_new\\tubes_kpl_new\\here\\gui_retide\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58C5EF46-1CF8-4D21-980E-5081283A8731}|TUBES_KPL.csproj|c:\\users\\sxpix\\downloads\\tubes_kpl_new\\tubes_kpl_new\\here\\tubes_kpl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -20,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,20 +50,71 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IGenericService.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\TUBES_KPL\\API\\Services\\IGenericService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\IGenericService.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\TUBES_KPL\\API\\Services\\IGenericService.cs",
+              "RelativeToolTip": "API\\Services\\IGenericService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T07:10:12.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericService.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\TUBES_KPL\\API\\Services\\GenericService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\GenericService.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\TUBES_KPL\\API\\Services\\GenericService.cs",
+              "RelativeToolTip": "API\\Services\\GenericService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T07:07:15.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\GUI_ReTide\\Program.cs",
+              "RelativeDocumentMoniker": "..\\GUI_ReTide\\Program.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\GUI_ReTide\\Program.cs",
+              "RelativeToolTip": "..\\GUI_ReTide\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:26:06.601Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\GUI_ReTide\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "..\\GUI_ReTide\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\GUI_ReTide\\Form1.Designer.cs",
+              "RelativeToolTip": "..\\GUI_ReTide\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T05:46:58.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\GUI_ReTide\\Form1.cs",
               "RelativeDocumentMoniker": "..\\GUI_ReTide\\Form1.cs",
               "ToolTip": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\GUI_ReTide\\Form1.cs",
               "RelativeToolTip": "..\\GUI_ReTide\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAF8DAAAAAAAAAAAAAGwDAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T14:42:37.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\GUI_ReTide\\Form1.cs",
               "RelativeDocumentMoniker": "..\\GUI_ReTide\\Form1.cs",
@@ -61,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\TUBES_KPL\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -69,8 +134,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAEYCAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T14:39:00.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T14:39:00.678Z"
             }
           ]
         }

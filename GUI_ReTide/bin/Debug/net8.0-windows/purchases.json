@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "CustomerName": "wadaw123",
+    "ProductId": 1,
+    "ProductName": "Gelang",
+    "Quantity": 2,
+    "TotalPrice": 100000,
+    "PurchaseDate": "2025-06-11T14:25:29.6848851+07:00"
+  },
+  {
+    "Id": 2,
+    "CustomerName": "wadaw123",
+    "ProductId": 1,
+    "ProductName": "fjsofsn",
+    "Quantity": 2,
+    "TotalPrice": 100000,
+    "PurchaseDate": "2025-06-11T14:27:58.1986198+07:00"
+  },
+  {
+    "Id": 3,
+    "CustomerName": "wadaw123",
+    "ProductId": 1,
+    "ProductName": "Gelang",
+    "Quantity": 4,
+    "TotalPrice": 200000,
+    "PurchaseDate": "2025-06-11T14:28:07.7215435+07:00"
+  },
+  {
+    "Id": 4,
+    "CustomerName": "wadaw123",
+    "ProductId": 1,
+    "ProductName": "Gelang",
+    "Quantity": 4,
+    "TotalPrice": 200000,
+    "PurchaseDate": "2025-06-11T14:39:11.3735151+07:00"
+  },
+  {
+    "Id": 5,
+    "CustomerName": "wadaw123",
+    "ProductId": 2,
+    "ProductName": "Gantungan Kunci",
+    "Quantity": 6,
+    "TotalPrice": 180000,
+    "PurchaseDate": "2025-06-11T14:39:19.2711028+07:00"
+  },
+  {
+    "Id": 6,
+    "CustomerName": "wadaw123",
+    "ProductId": 3,
+    "ProductName": "Figura",
+    "Quantity": 5,
+    "TotalPrice": 500000,
+    "PurchaseDate": "2025-06-11T14:39:30.087637+07:00"
+  },
+  {
+    "Id": 7,
+    "CustomerName": "wadaw123",
+    "ProductId": 1,
+    "ProductName": "Gelang",
+    "Quantity": 3,
+    "TotalPrice": 150000,
+    "PurchaseDate": "2025-06-11T16:36:10.1940487+07:00"
+  }
+]

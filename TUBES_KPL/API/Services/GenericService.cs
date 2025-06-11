@@ -12,8 +12,9 @@ namespace TUBES_KPL.API.Services
     public class GenericService<T> : IGenericService<T>
     {
         private readonly List<T> _items = new List<T>();
-        private List<Product> products;
+        private List<Product> productsList;
         private List<Donation> donationList;
+        private List<Pembelian> purchaseList;
         private readonly string _filePath;
 
         public List<T> GetAll()
@@ -99,14 +100,38 @@ namespace TUBES_KPL.API.Services
             File.WriteAllText(_filePath, json);
         }
 
-        public GenericService(List<Product> products)
-        {
-            this.products = products;
-        }
+    //    public GenericService(List<Product> products)
+    //    {
+    //        this.productsList = products;
+    //        if (typeof(T) == typeof(Product) && products != null)
+    //        {
+    //            _items.AddRange(products.Cast<T>());
+    //        }
+    //    }
 
-        public GenericService(List<Donation> donationList)
+    //    public GenericService(List<Donation> donationList)
+    //    {
+    //        this.donationList = donationList;
+    //    if (typeof(T) == typeof(Donation) && donationList != null)
+    //    {
+    //        _items.AddRange(donationList.Cast<T>());
+    //    }
+    //    }
+
+    //    public GenericService(List<Pembelian> purchaseList)
+    //{
+    //    this.purchaseList = purchaseList;
+    //    if (typeof(T) == typeof(Pembelian) && purchaseList != null)
+    //    {
+    //        _items.AddRange(purchaseList.Cast<T>());
+    //    }
+    //}
+        public GenericService(List<T> items)
         {
-            this.donationList = donationList;
+            if (items != null)
+            {
+                _items.AddRange(items);
+            }
         }
 
     }

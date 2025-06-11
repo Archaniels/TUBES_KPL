@@ -1,38 +1,26 @@
 {
-  "TestUser1": {
-    "Email": "testuser1@example.com",
-    "Username": "TestUser1",
-    "Password": "Password123",
+  "daniyal23": {
+    "Email": "daniyal23@gmail.com",
+    "Username": "daniyal23",
+    "Password": "!Danidanidani23",
     "Role": "Customer"
   },
-  "raditya": {
-    "Email": "raditya@gmail.com",
-    "Username": "raditya",
-    "Password": "Raditya93.",
+  "daniyal111": {
+    "Email": "daniyal111@gmail.com",
+    "Username": "daniyal111",
+    "Password": "!Daniyal111",
     "Role": "Customer"
   },
-  "bagaskara": {
-    "Email": "bagaskara@gmail.com",
-    "Username": "bagaskara",
-    "Password": "Bagaskara93.",
-    "Role": "Admin"
-  },
-  "dani": {
-    "Email": "dani@gmail.com",
-    "Username": "dani",
-    "Password": "@Daniyal2307",
+  "wadaw123": {
+    "Email": "wadaw123@gmail.com",
+    "Username": "wadaw123",
+    "Password": "!Wadawwadaw123",
     "Role": "Customer"
   },
-  "adminuser": {
-    "Email": "adminuser@gmail.com",
-    "Username": "adminuser",
-    "Password": "Adminuser123!",
-    "Role": "Admin"
-  },
-  "admiralmanan": {
-    "Email": "Manan2911@gmail.com",
-    "Username": "admiralmanan",
-    "Password": "Manan2911",
+  "admin": {
+    "Email": "admin123@gmail.com",
+    "Username": "admin",
+    "Password": "!Adminadmin123",
     "Role": "Customer"
   }
 }

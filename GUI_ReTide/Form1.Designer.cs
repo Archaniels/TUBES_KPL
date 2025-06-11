@@ -28,19 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            // Remove or comment out this line
+            // label1 = new Label();
             SuspendLayout();
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.WindowText;
-            label1.Location = new Point(620, 139);
-            label1.Name = "label1";
-            label1.Size = new Size(117, 35);
-            label1.TabIndex = 0;
-            label1.Text = "Re:Tide";
+            // Remove or comment out all these label1 properties
+            // label1.AutoSize = true;
+            // label1.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            // label1.ForeColor = SystemColors.WindowText;
+            // label1.Location = new Point(620, 139);
+            // label1.Name = "label1";
+            // label1.Size = new Size(117, 35);
+            // label1.TabIndex = 0;
+            // label1.Text = "Re:Tide";
             // 
             // Form1
             // 
@@ -48,16 +50,19 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
             ClientSize = new Size(1262, 673);
-            Controls.Add(label1);
-            ForeColor = SystemColors.Window;
+            // Remove this line that adds the label to the form
+            // Controls.Add(label1);
+            ForeColor = SystemColors.ControlText;
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
+        // Remove this line
+        // private Label label1;
     }
 }
