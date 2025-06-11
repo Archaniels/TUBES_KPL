@@ -34,3 +34,40 @@ C:\Users\fikri\Dropbox\PC\Documents\Perkuliahan\Semester 4\Konstruksi Perangkat 
 C:\Users\fikri\Dropbox\PC\Documents\Perkuliahan\Semester 4\Konstruksi Perangkat Lunak\PERTUBESAN\TUBES_KPL_NEW\APIABADI\obj\Debug\net8.0\APIABADI.pdb
 C:\Users\fikri\Dropbox\PC\Documents\Perkuliahan\Semester 4\Konstruksi Perangkat Lunak\PERTUBESAN\TUBES_KPL_NEW\APIABADI\obj\Debug\net8.0\APIABADI.genruntimeconfig.cache
 C:\Users\fikri\Dropbox\PC\Documents\Perkuliahan\Semester 4\Konstruksi Perangkat Lunak\PERTUBESAN\TUBES_KPL_NEW\APIABADI\obj\Debug\net8.0\ref\APIABADI.dll
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\bin\Debug\net8.0\appsettings.json
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\bin\Debug\net8.0\APIABADI.staticwebassets.endpoints.json
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\bin\Debug\net8.0\APIABADI.exe
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\bin\Debug\net8.0\APIABADI.deps.json
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\bin\Debug\net8.0\APIABADI.runtimeconfig.json
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\bin\Debug\net8.0\APIABADI.dll
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\bin\Debug\net8.0\APIABADI.pdb
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\APIABADI.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\APIABADI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\APIABADI.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\APIABADI.AssemblyInfo.cs
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\APIABADI.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\APIABADI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\APIABADI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\APIABADI.sourcelink.json
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\scopedcss\bundle\APIABADI.styles.css
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\staticwebassets\msbuild.APIABADI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\staticwebassets\msbuild.APIABADI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\staticwebassets\msbuild.build.APIABADI.props
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.APIABADI.props
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.APIABADI.props
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\APIABADI.csproj.Up2Date
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\APIABADI.dll
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\refint\APIABADI.dll
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\APIABADI.pdb
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\APIABADI.genruntimeconfig.cache
+C:\Users\DELL\source\repos\NEW_TUBES_KPL\APIABADI\obj\Debug\net8.0\ref\APIABADI.dll
