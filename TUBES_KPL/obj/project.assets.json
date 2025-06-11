@@ -9407,23 +9407,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sxpix\\.nuget\\packages\\": {},
+    "C:\\Users\\DELL\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\TUBES_KPL\\TUBES_KPL.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\TUBES_KPL\\TUBES_KPL.csproj",
       "projectName": "TUBES_KPL",
-      "projectPath": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\TUBES_KPL\\TUBES_KPL.csproj",
-      "packagesPath": "C:\\Users\\sxpix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sxpix\\Downloads\\TUBES_KPL_NEW\\TUBES_KPL_NEW\\here\\TUBES_KPL\\obj\\",
+      "projectPath": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\TUBES_KPL\\TUBES_KPL.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\source\\repos\\NEW_TUBES_KPL\\TUBES_KPL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\sxpix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -9432,7 +9432,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
