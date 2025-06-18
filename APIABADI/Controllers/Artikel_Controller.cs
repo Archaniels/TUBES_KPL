@@ -5,7 +5,7 @@ namespace APIABADI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class Artikel_Controller : Controller
+    public class ArtikelController : Controller
     {
         public static List<ArtikelModel> artikels = new List<ArtikelModel>
         {
